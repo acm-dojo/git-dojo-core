@@ -169,7 +169,7 @@ def show_splash(console: Console, *, pause: bool = True) -> None:
 
     if pause and sys.stdin.isatty():
         art_lines.extend([
-            "   [yellow bold]A crash course to Linux Shells and CLI tools [blink]█[/blink][/yellow bold]",
+            "   [yellow bold]A crash course to Git version control system [blink]█[/blink][/yellow bold]",
             "",
             "[dim]> Press [/dim][underline]Enter[/underline][dim] to continue...[/dim]",
         ])
